@@ -11,6 +11,10 @@ This code will extract daily prayer timing from Website "www.hamariweb.com" and 
 
  On Cmd, go to the directory where the spider is saved and  run :
  scrapy crawl prayerinfo
+ 
+ **How to get Skype Group Chat ID**
+ 
+ https://stackoverflow.com/a/52377952
 
 **Overview**
 
