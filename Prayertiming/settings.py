@@ -9,10 +9,10 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'hamariweb'
+BOT_NAME = 'Prayertiming'
 
-SPIDER_MODULES = ['hamariweb.spiders']
-NEWSPIDER_MODULE = 'hamariweb.spiders'
+SPIDER_MODULES = ['Prayertiming.spiders']
+NEWSPIDER_MODULE = 'Prayertiming.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
