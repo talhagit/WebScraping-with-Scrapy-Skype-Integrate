@@ -14,8 +14,8 @@ class hamariweb(scrapy.Spider):
         yield scrapy.Request(url, callback=self.parse_dir_contents)	
 
     def parse_dir_contents(self, response):
-        username='talha.iftikhar@technologyally.com'
-        password='ti.12345'
+        username=[Your UserName]
+        password=[Your Pswd]
         item=HamariwebItem()
         
         item['time'] = response.xpath("//td[contains(@class,'h5')]/b/text()").extract()
